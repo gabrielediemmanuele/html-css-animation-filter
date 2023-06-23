@@ -82,6 +82,14 @@
   filter: grayscale(1);
 }
 
+/*7th block*/
+.ex-7-img {
+  transition: 2s;
+}
+.ex-7-img:hover {
+  filter: grayscale(0.6) sepia(0.5);
+}
+
 .ex-9-img {
   margin: 50px 100px;
   width: 400px;
