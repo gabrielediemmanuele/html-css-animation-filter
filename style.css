@@ -90,6 +90,15 @@
   filter: grayscale(0.6) sepia(0.5);
 }
 
+/*8th block*/
+.ex-8-img {
+  transition: 2s;
+}
+.ex-8-img:hover {
+  filter: grayscale(0.7) sepia(0.4);
+  border-radius: 30px;
+}
+
 .ex-9-img {
   margin: 50px 100px;
   width: 400px;
