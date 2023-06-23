@@ -11,12 +11,13 @@
   background-color: red;
 }
 
+/*2th block*/
 .ex-2-square {
   width: 100px;
   height: 100px;
   background: red;
 }
-/*2th block*/
+
 .ex-2-square {
   transition: 2s;
 }
@@ -24,12 +25,13 @@
   width: 100%;
 }
 
+/*3th block*/
 .ex-3-square {
   width: 100px;
   height: 100px;
   background: red;
 }
-/*3th block*/
+
 .ex-3-square {
   transition: 1s;
 }
@@ -37,13 +39,13 @@
   border-radius: 100%;
 }
 
+/*4th block*/
 .ex-4-square {
   width: 100px;
   height: 100px;
   background: red;
 }
 
-/* 4th block*/
 .ex-4-square {
   transition: 1s;
 }
@@ -51,12 +53,24 @@
   opacity: 0;
 }
 
+/*5th block*/
 .ex-5-square {
   margin: 20px;
   width: 60px;
   height: 60px;
   background: red;
 }
+
+.ex-5-square {
+  transition: 1s;
+}
+.ex-5-square:hover {
+  transform: scale(2);
+}
+.ex-5-square:active {
+  transform: scale(0.5);
+}
+
 .ex-6-img,
 .ex-7-img,
 .ex-8-img {
