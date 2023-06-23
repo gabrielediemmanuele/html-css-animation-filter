@@ -114,9 +114,21 @@
   transform: scale(1.5);
 }
 
+/*10th block*/
 .ex-10-icon {
   font-size: 60px;
 }
+
+.ex-10-icon {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(1turn);
+  }
+}
+
+/*11th block*/
 .ex-11-icon {
   font-size: 60px;
 }
