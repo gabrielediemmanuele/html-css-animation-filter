@@ -98,11 +98,22 @@
   filter: grayscale(0.7) sepia(0.4);
   border-radius: 30px;
 }
-
+/*9th block*/
 .ex-9-img {
   margin: 50px 100px;
   width: 400px;
 }
+
+.ex-9-img {
+  transition: 2s;
+}
+
+.ex-9-img:hover {
+  filter: grayscale(0.5) sepia(0.7);
+  border-radius: 30px;
+  transform: scale(1.5);
+}
+
 .ex-10-icon {
   font-size: 60px;
 }
