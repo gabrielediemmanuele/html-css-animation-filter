@@ -16,6 +16,14 @@
   height: 100px;
   background: red;
 }
+/*2th block*/
+.ex-2-square {
+  transition: 2s;
+}
+.ex-2-square:active {
+  width: 100%;
+}
+/*3th block*/
 .ex-3-square {
   width: 100px;
   height: 100px;
