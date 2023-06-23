@@ -23,12 +23,21 @@
 .ex-2-square:active {
   width: 100%;
 }
-/*3th block*/
+
 .ex-3-square {
   width: 100px;
   height: 100px;
   background: red;
 }
+/*3th block*/
+.ex-3-square {
+  transition: 1s;
+}
+.ex-3-square:hover {
+  border-radius: 100%;
+}
+
+/* 4th block*/
 .ex-4-square {
   width: 100px;
   height: 100px;
